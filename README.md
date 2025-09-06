@@ -70,12 +70,12 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone https://github.com/nikita-morkovkin/morkovkin-website
+    git clone https://github.com/nikita-morkovkin/morkovkin
     ```
 
 2.  **Перейдите в папку проекта:**
     ```bash
-    cd morkovkin-website
+    cd morkovkin-portfolio-website
     ```
 
 3.  **Установите зависимости:**
