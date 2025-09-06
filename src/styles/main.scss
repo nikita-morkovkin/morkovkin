@@ -1,0 +1,12 @@
+@use 'normalize';
+@use 'globals';
+@use 'utils';
+@use 'variables';
+
+body {
+  position: relative;
+}
+
+.modal-open {
+  overflow-y: hidden;
+}

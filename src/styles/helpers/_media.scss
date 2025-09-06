@@ -1,0 +1,128 @@
+@use './functions' as *;
+
+$xl: 1829.98;
+$less-xl: 1579.98;
+$about-tablet: 1096.98;
+$less-tablet: 855.96;
+$less-mobile: 686.98;
+$more-mobile-s: 598.98;
+$about-mobile-s: 515.98;
+$less-mobile-s: 432.98;
+
+$laptop: 1440.98;
+$tablet: 1023.98;
+$mobile: 767.98;
+$mobile-s: 480.98;
+
+@mixin less-1830px-screen {
+  @media (width <= rem($xl)) {
+    @content;
+  }
+}
+
+@mixin less-1580px-screen {
+  @media (width <= rem($less-xl)) {
+    @content;
+  }
+}
+
+@mixin less-1096px-screen {
+  @media (width <= rem($about-tablet)) {
+    @content;
+  }
+}
+
+@mixin less-856px-screen {
+  @media (width <= rem($less-tablet)) {
+    @content;
+  }
+}
+
+@mixin less-686px-screen {
+  @media (width <= rem($less-mobile)) {
+    @content;
+  }
+}
+
+@mixin less-599px-screen {
+  @media (width <= rem($more-mobile-s)) {
+    @content;
+  }
+}
+
+@mixin less-516px-screen {
+  @media (width <= rem($about-mobile-s)) {
+    @content;
+  }
+}
+
+@mixin less-432px-screen {
+  @media (width <= rem($less-mobile-s)) {
+    @content;
+  }
+}
+
+@mixin laptop-above {
+  @media (width > rem($laptop)) {
+    @content;
+  }
+}
+
+@mixin less-laptop {
+  @media (width <= rem($laptop)) {
+    @content;
+  }
+}
+
+@mixin tablet-above {
+  @media (width > rem($tablet)) {
+    @content;
+  }
+}
+
+@mixin less-tablet {
+  @media (width <= rem($tablet)) {
+    @content;
+  }
+}
+
+@mixin mobile-above {
+  @media (width > rem($mobile)) {
+    @content;
+  }
+}
+
+@mixin less-mobile {
+  @media (width <= rem($mobile)) {
+    @content;
+  }
+}
+
+@mixin mobile-s-above {
+  @media (width > rem($mobile-s)) {
+    @content;
+  }
+}
+
+@mixin less-mobile-s {
+  @media (width <= rem($mobile-s)) {
+    @content;
+  }
+}
+
+
+@mixin hover ($hasActiveEffectOnMobile: true) {
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  @if ($hasActiveEffectOnMobile) {
+    @media (any-hover: none) {
+      &:active {
+        @content;
+      }
+    }
+  }
+}
