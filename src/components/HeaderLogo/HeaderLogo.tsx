@@ -4,7 +4,7 @@ const HeaderLogo = () => {
   return (
     <a
       data-testid={'header-logo'}
-      href="/"
+      href="https://nikita-morkovkin.github.io/morkovkin/"
       className={'header-logo'}
       title={'Go to home'}
     >

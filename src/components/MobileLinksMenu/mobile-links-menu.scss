@@ -24,5 +24,16 @@
   &__item {
     padding: rem(16);
     font-size: rem(22);
+    color: white;
+  }
+}
+
+body:has(.light-mode) {
+  .mobile-links-menu {
+    background-color: white;
+
+    &__item {
+      color: black;
+    }
   }
 }
