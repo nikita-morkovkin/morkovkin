@@ -27,6 +27,7 @@ import nextJs from '../../public/images/frontend/nextjs.avif';
 import mui from '../../public/images/frontend/mui.avif';
 import antDesign from '../../public/images/frontend/ant-design.avif';
 import docker from '../../public/images/frontend/docker.avif';
+import i18next from '../../public/images/frontend/i18next.png';
 
 export const frontendAbilitiesConfig: IWorkAbility[] = [
   {pathToImg: html, titleText: 'HTML'},
@@ -57,4 +58,5 @@ export const frontendAbilitiesConfig: IWorkAbility[] = [
   {pathToImg: docker, titleText: 'Docker'},
   {pathToImg: mui, titleText: 'Material UI'},
   {pathToImg: antDesign, titleText: 'Ant Design UI Library'},
+  {pathToImg: i18next, titleText: 'i18next - Internationalization framework'},
 ];
