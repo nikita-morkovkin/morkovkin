@@ -28,6 +28,7 @@ import mui from '../../public/images/frontend/mui.avif';
 import antDesign from '../../public/images/frontend/ant-design.avif';
 import docker from '../../public/images/frontend/docker.avif';
 import i18next from '../../public/images/frontend/i18next.png';
+import mobx from '../../public/images/frontend/mobx.avif';
 
 export const frontendAbilitiesConfig: IWorkAbility[] = [
   {pathToImg: html, titleText: 'HTML'},
@@ -59,4 +60,5 @@ export const frontendAbilitiesConfig: IWorkAbility[] = [
   {pathToImg: mui, titleText: 'Material UI'},
   {pathToImg: antDesign, titleText: 'Ant Design UI Library'},
   {pathToImg: i18next, titleText: 'i18next - Internationalization framework'},
+  {pathToImg: mobx, titleText: 'MobX'},
 ];

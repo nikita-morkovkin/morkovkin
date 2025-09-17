@@ -5,7 +5,7 @@ export const hardSkillsConfig: IWorkSkill[] = [
   {content: 'CSS, SCSS, Tailwind, Framer Motion'},
   {content: 'JavaScript, TypeScript'},
   {content: 'React'},
-  {content: 'Redux (Redux Toolkit), Zustand'},
+  {content: 'Redux (Redux Toolkit), Zustand, MobX'},
   {content: 'React Hook Form, Yup, Zod'},
   {content: 'Axios, React Router, React Query, RTK Query'},
   {content: 'Vite, Webpack'},
