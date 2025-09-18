@@ -43,7 +43,8 @@
     Next.JS,
     Docker,
     Material UI,
-    Ant Design
+    Ant Design,
+    MobX
 <br>
 <br>
 
