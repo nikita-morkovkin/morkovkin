@@ -71,21 +71,16 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone https://github.com/nikita-morkovkin/morkovkin
+    git clone  https://github.com/nikita-morkovkin/morkovkin
     ```
 
-2.  **Перейдите в папку проекта:**
-    ```bash
-    cd morkovkin-portfolio-website
-    ```
-
-3.  **Установите зависимости:**
+2.  **Установите зависимости:**
     Эта команда скачает все необходимые пакеты, включая Vite, React и SCSS.
     ```bash
     npm install
     ```
 
-4.  **Запустите сервер для разработки:**
+3.  **Запустите сервер для разработки:**
     Эта команда запустит локальный сервер. Сайт будет доступен по адресу, который появится в терминале.
     ```bash
     npm run dev
