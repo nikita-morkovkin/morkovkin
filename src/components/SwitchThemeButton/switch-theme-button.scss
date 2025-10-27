@@ -1,0 +1,20 @@
+@use '../../../src/styles/helpers' as *;
+
+.switch-theme-button {
+  @include flex-center();
+
+  flex-shrink: 0;
+  background-color: var(--base-background-color);
+  width: rem(50);
+  position: relative;
+  height: rem(50);
+  border-radius: 50%;
+  padding: 10px;
+  transition-duration: var(--transition-duration);
+  border: 1px solid var(--base-background-color);
+  box-shadow: var(--shadow);
+
+  @include hover {
+    border: 1px solid var(--accent-color);
+  }
+}

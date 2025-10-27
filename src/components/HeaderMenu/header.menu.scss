@@ -1,0 +1,17 @@
+@use '../../../src/styles/helpers' as *;
+
+.header-menu {
+  display: flex;
+  column-gap: rem(34);
+  font-size: rem(18);
+  white-space: nowrap;
+
+  @include less-mobile {
+    @include visually-hidden();
+  }
+
+  &-link {
+    padding-top: rem(24);
+    padding-bottom: rem(24);
+  }
+}

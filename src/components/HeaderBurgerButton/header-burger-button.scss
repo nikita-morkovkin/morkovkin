@@ -1,0 +1,17 @@
+@use '../../../src/styles/helpers' as *;
+
+.header-burger-button {
+  @include flex-center();
+  border: 1px solid var(--accent-color);
+  flex-shrink: 0;
+  padding: 7px;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 40px;
+  width: 40px;
+  display: none;
+
+  @include less-mobile {
+    display: flex;
+  }
+}
